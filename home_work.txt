@@ -1,0 +1,60 @@
+Task 1. Done
+    Create a folder for your git repository and initialize the new git repository in that folder.
+        1. sudo apt install git
+        2. mkdir git_homework
+        3. cd git_homework
+        4. git init
+
+Task 2. Done
+    Write one program in your repository which will print "Hello World" and commit your program file.
+        1. vim hello_world.sh
+        2. git add hello_world.sh
+        3. git commit hello_world.sh
+
+Task 3. Done
+    Add a function to your program which will print "Second Commit" and with that create a second commit.
+        1. vim hello_world.sh
+        2. git status -s
+        3. git commit hello_world.sh
+        
+Task 4. Done
+    Create a new branch from master and add a function to your program which will print "New branch" and with that create commit.
+        1. git branch first_branch
+        2. git checkout first_branch
+        3. vim newBranch.sh
+        4. git commit newBranch.sh
+        
+Task 5. Done
+    Create another branch from master and use revert to revert the last commit.
+        1. git branch second_branch
+        2. git checkout second_branch
+        3. git log
+        4. git revert (hash name) b29b92c446bc7ff138fc8aa393850319279ea8de
+        5. git add hello_world.sh
+        6. git commit hello_world.sh
+
+Task 6. Done
+    Add function to both of the branches which will print "first branch" in first branch and "second branch" in second branch.
+        1. git checkout first_branch
+        2. vim first.sh
+        3. git checkout second_branch
+        4. git branch
+        5. vim second.sh
+
+Task 7. Done
+    Merge second branch to first branch.
+        1. git checkout first_branch
+        2. git merge second_branch
+
+Task 8. Done
+    Register to GitHub and create a new repository. Add remote to your local repository.
+        1. git remote add origin https://github.com/Heghine2021/ITC-GM2.git
+        2. git remote -v
+  
+Task 9. Done
+    Push all your branches to remote and clone your remote repository to another folder.
+        1. git push -u origin first_branch / || second_branch || master
+        2. git clone https://github.com/Heghine2021/ITC-GM2.git
+
+
+  
