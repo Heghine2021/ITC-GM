@@ -3,7 +3,7 @@ Task 1. Done
         1. git init
 
 Task 2. Done
-    Create a branch with your name and write a program in any programming language to print some message.
+    Create a branch with your name and write a program in any programming language to print some message. 
         1. git branch Heghine
         2. git checkout Heghine
         3. vim 1.txt
