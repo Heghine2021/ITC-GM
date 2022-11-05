@@ -1,0 +1,42 @@
+Task 1. Done
+    Create a folder for your git repository and initialize the new git repository in that folder. 
+        1. git init
+
+Task 2. Done
+    Create a branch with your name and write a program in any programming language to print some message.
+        1. git branch Heghine
+        2. git checkout Heghine
+        3. vim 1.txt
+
+Task 3. Done
+    Add remote to your local repository.
+        1. git remote add origin https://username:token@github.com/Heghine2021/ITC-GM2
+        2. git remote -v
+
+Task 4. Done
+    Commit and push your branch to remote repository.
+        1. git push -u origin Heghine || git push -u origin Heghine --force. 
+
+Task 5. Done
+    Create a tag for the last commit in your branch and push that tag to remote repository.
+        1. git tag v1
+        2. git tag -a v1.1 -m "my version 1.1"
+
+Task 6. Done
+    Create pull request for your branch.
+        I sent the pictures to the email and this is the link to the final result
+        https://github.com/Heghine2021/ITC-GM2/pulls
+
+Task 7. Done
+    Create a pre-commit hook to show some messages.
+        1. mv prepare-commit-msg.sample prepare-commit-msg
+        2. vim prepare-commit-msg
+        3. change #!/bin/sh -> #!/bin/bash
+        3. add message -> echo myPre-commitMasseg
+
+Task 8. Done
+    Investigate .git folder.
+
+Task 9. Done
+    Review all material for examination.
+
